@@ -1,0 +1,32 @@
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.navigation__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.navigation__list__button{
+    width: 128px;
+    border-radius: 4px;
+
+    color: $title-color;
+    background-color: $button-main;
+    border: none;
+
+    transition-property: color,background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover {
+        color: $text-main;
+        background-color: $primary-color;
+        cursor: pointer;
+    }
+}

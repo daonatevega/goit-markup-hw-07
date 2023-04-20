@@ -1,0 +1,106 @@
+.footer {
+    background-image: url('../img/Footer-bg-studio.jpg');
+    background-color: $background-color;
+    height: 200px;
+    width: 100%;
+}
+
+.footer__section{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer__address {
+    color: $text-main;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2;
+    font-style: normal;
+
+    width: 231px;
+}
+
+.footer__contact {
+    color: $footer-color;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2;
+    font-style: normal;
+}
+
+.footer__social {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 4%;
+}
+
+.footer__title {
+    color: $text-main;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+.social__icon__card--background--fill{
+    background-color: $color-icon-footer;
+    fill: $text-main;
+}
+
+.footer__bulletin{
+    width: 600px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 4%;
+}
+
+.footer__input{
+    width: 358px;
+    height: 50px;
+    padding-left: 2%;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: $background-color;
+    outline: none;
+    transition-property: background-color, border;
+    transition-duration: 250ms;
+    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:focus{
+        background-color: $text-main;
+        border: 2px solid $primary-color;
+    }
+}
+
+.footer__subscribe{
+    width: 200px;
+    height: 50px;
+    margin-left: 62%;
+    margin-top: -8.5%;
+    position: relative;
+}
+
+.button--suscribe{
+    width: 200px;
+    height: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    padding-left: 20%;
+
+    display: flex;
+}
+
+.footer__icon__send{
+    position: absolute;
+    left: 70%;
+    top: 25%;
+    fill: $text-main;
+}

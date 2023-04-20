@@ -1,0 +1,110 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.button {
+    color: $text-main;
+    background-color: $primary-color;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+
+.logo {
+    color: $primary-color;
+    text-decoration: none;
+    font-size: 26px; /*Tamaño de la fuente*/
+    line-height: 1.2; /*Altura de linea*/
+    font-weight: 700; /*propiedad establece qué tan gruesos o delgados deben mostrarse los caracteres en el texto.*/
+    font-family:'Raleway'; /*propiedad especifica la fuente de un elemento.*/
+    font-style: normal; /*propiedad especifica el estilo de fuente para un texto.*/
+}
+
+.social__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 206px;
+    height: auto;
+}
+
+.social__icon__card {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    fill: $color-icon;
+    border-radius: 50%;
+    background-color: 0;
+    transition-property: fill, background-color;
+    transition-duration: 250ms;
+    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social__icon__card:hover{
+    cursor: pointer;
+    fill: $text-main;
+    background-color: $primary-color;
+}
+
+.position__relative{
+    position: relative;
+}
+
+.pd-0 {
+    padding: 0;
+}
+
+.pl-producto-briefcase {
+    padding-left: 10px;
+}
+
+.pl-20{
+    padding-left: 20px;
+}
+
+.pr-05 {
+    padding-right: 0.5rem;
+}
+
+.pr-2 {
+    padding-right: 2rem;
+}
+
+.pr-5 {
+    padding-right: 5rem;
+}
+
+.pt-01 {
+    padding-bottom: 0.1rem;
+}
+
+.pt-05 {
+    padding-bottom: 0.5rem;
+}
+
+.pt-1 {
+    padding-bottom: 1rem;
+}
+
+.pt-2 {
+    padding-bottom: 2rem;
+}
+
+.list-default {
+    list-style-type: none;
+}
+
+.subtitle {
+    color: $title-color;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.2;
+    font-style: normal;
+}
